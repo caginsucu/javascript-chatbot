@@ -1,8 +1,9 @@
 # Chatbot-Logic-Project
 
-## I coded an example of a Chatbot 🤖<br>
+## Chatbot örneği kodlama örneği 🤖<br>
 
-🧠 In this project I wanted to prototype a chatbot using functions and DOM manipulations.<br>
+
+🧠 Bu projede fonksiyonları ve DOM manipülasyonlarını kullanarak bir chatbot prototipi oluşturmayı denedim.<br>
 
 📅 20.05.2022 <br>
 
