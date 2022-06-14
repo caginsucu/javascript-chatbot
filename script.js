@@ -5,7 +5,8 @@ const contentBox = document.querySelector('.bot-content');
 const checkMsg = {
     greet: ["merhaba", "selam", "mrb", "slm"],
     services: ["kargom nerede", "kargo bilgileri", "sipariş", "kargo"],
-    name: ["isim", "ad", "adin ne", "sen kimsin"]
+    name: ["isim", "ad", "adin ne", "sen kimsin"],
+    weather: ["hava nasil", "hava durumu"]
 }
 
 const botAnswers = {
@@ -16,7 +17,8 @@ const botAnswers = {
     services: [
         "Kargonuzla ilgili bilgilere ulaşmaya çalışıyorum", "Kargo bilgilerinizi kontrol ederken lütfen bekleyin", "Siparişinizi kontrol ediyorum.."
     ],
-    name: ["Benim adım Tom", "Ben Tom tanıştığımıza sevindim :)"]
+    name: ["Benim adım Tom", "Ben Tom tanıştığımıza sevindim :)"],
+    weather: ["Bugün havamı güzelleştirdiğini söyleyebilirim :)"]
 }
 
 
@@ -50,6 +52,7 @@ function userMessage() {
 
     loadMsgAnimation();
     setTimeout(() => { botMessage(usrMsgText.innerText.toLowerCase()) }, 1000)
+
 }
 
 
@@ -90,6 +93,7 @@ function botMessage(value) {
         botMsgDiv.appendChild(botMsgText);
         contentBox.appendChild(botMsgDiv);
     }
+    contentBox.scrollTo(0, contentBox.scrollHeight);
 }
 
 function loadMsgAnimation() {
