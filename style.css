@@ -129,3 +129,41 @@ input:active {
     color: white;
     font-weight: 600;
 }
+
+
+/* Load Msg */
+
+.bot-msg.load-msg span {
+    font-size: 0.4rem;
+}
+
+
+.bot-msg.load-msg span:nth-child(1) {
+    display: inline-block;
+    animation: upDown 2s linear infinite;
+}
+
+.bot-msg.load-msg span:nth-child(2) {
+    display: inline-block;
+    animation: upDown 2s linear infinite 0.5s;
+}
+
+.bot-msg.load-msg span:nth-child(3) {
+    display: inline-block;
+    animation: upDown 2s linear infinite 1s;
+}
+
+@keyframes upDown {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+
+}
