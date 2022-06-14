@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot Logic Projects</title>
+
+    <!-- Text Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Linking Custom CSS Stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="bot-wrapper">
+
+        <div class="bot-header">
+            <i class="fa-solid fa-user-astronaut"></i>
+            <div>
+                <h3>Chat with</h3>
+                <h2>Tom</h2>
+            </div>
+        </div>
+
+        <div class="bot-content">
+            <div class="bot-msg msg">
+                <p>Merhaba nasıl yardımcı olabilirim ?</p>
+            </div>
+            <div class="user-msg msg">
+                <p>Merhaba kargom nerede ?</p>
+            </div>
+        </div>
+
+        <div class="bot-footer">
+            <input type="text" name="msg" id="msg" placeholder="Mesajınızı Giriniz">
+            <button id="send-msg-btn btn"><i class="fa-solid fa-angles-right"></i></button>
+        </div>
+
+    </div>
+
+    <!-- Linking Script -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
