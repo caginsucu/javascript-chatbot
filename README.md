@@ -5,7 +5,8 @@
 
 🧠 Bu projede fonksiyonları ve DOM manipülasyonlarını kullanarak bir chatbot prototipi oluşturmayı denedim.<br>
 
-#### 📹 CANLI GÖRÜNÜM : https://caginsucu.github.io/Chatbot-Logic-Project/ <br>
+#### 📹 CANLI GÖRÜNÜM : https://caginsucu.github.io/Chatbot-Design-and-Prototype/
+ <br>
 
 ### Denerken kullanmanızı önerdiğim kelimeler 🗒
 *  greet: ["merhaba", "selam", "mrb", "slm"],
